@@ -1,0 +1,23 @@
+subplot(4,1,1)
+plot(time_FT_202B,value_FT_202B)
+title('Combustion Fan North Bearing','FontSize',18)
+xlabel("Time",'FontSize',18)
+ylabel("Mills",'FontSize',18)
+
+subplot(4,1,2)
+plot(time_PT_203,value_PT_203)
+title('Combustion Fan South Bearing','FontSize',18)
+xlabel("Time",'FontSize',18)
+ylabel("Mills",'FontSize',18)
+
+subplot(4,1,3)
+plot(time_FT_204B,value_FT_204B)
+title('Ejector Fan North Bearing','FontSize',18)
+xlabel("Time",'FontSize',18)
+ylabel("Mills",'FontSize',18)
+
+subplot(4,1,4)
+plot(time_PT_204,value_PT_204)
+title('Ejector Fan South Bearing','FontSize',18)
+xlabel("Time",'FontSize',18)
+ylabel("Mills",'FontSize',18)

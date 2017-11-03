@@ -1,0 +1,16 @@
+%%
+% x: datetime array
+% y: float array
+% interval: sample interval, e.g. if interval = 5s, then every 5s sample once
+function [ X,Y ] = sample(x,y,interval)
+    X = x(1):seconds(interval):x(end);
+    x = x';
+    Y = NaN(1,max(size(X)))';
+    [tf, index] = ismember(x, X);
+    Y(index) = y;
+    Y = fillmissing(Y,'previous');
+    
+    % sample
+    X = X(1:interval:length(X));
+    Y = Y(1:interval:length(Y));
+end
