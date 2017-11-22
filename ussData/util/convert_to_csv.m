@@ -1,1 +1,0 @@
-csvwrite('time.csv',X)
