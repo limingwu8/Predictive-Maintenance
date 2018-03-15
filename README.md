@@ -1,7 +1,7 @@
 # Predictive Maintenance
 
 ## Overview
-This is the code for time series data analyzing. We will use LSTM to predict the value of sensor reading in the future and generate a "Health Index" for each component of the system in the future and finally generate a overall health index for the whole system in the future. 
+This is the code for time series data analyzing. We will use LSTM to predict the value of sensor reading in the future and generate a "health index" for each component of the system and finally generate a overall "health index" for the whole system, which indicated the system's future health status. 
 
 ## Dataset
 Twelve time series data from twelve different sensors which including temperature sensor, pressure sensor and vibration sensor. 
