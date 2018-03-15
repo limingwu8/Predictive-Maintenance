@@ -35,6 +35,10 @@ pickle
 ## Results
 
 ### Prediction
-
-
+This is the single step prediction result for one day sampled oil return temperature sensor.
+![image1](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/OIL_RETURN_TEMPERATURE-sample_1_day.png)
+This is the RMSE comparison of multi-step prediction for different time interval sampled oil return temperature sensor.
+![image2](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/RMSE.png)
 ### Health Index
+This is the predicted health index of each sensor and the whole system on November.
+![image3](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/RMSE.png)
