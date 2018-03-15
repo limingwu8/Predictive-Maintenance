@@ -41,4 +41,4 @@ This is the RMSE comparison of multi-step prediction for different time interval
 ![image2](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/RMSE.png)
 ### Health Index
 This is the predicted health index of each sensor and the whole system on November.
-![image3](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/RMSE.png)
+![image3](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/health_index_combined.png)
