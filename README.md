@@ -8,6 +8,12 @@ Twelve time series data from twelve different sensors which including temperatur
 The raw dataset are located under folder ["original"](https://github.com/limingwu8/Predictive-Maintenance/tree/master/dataset/csv/original). The format is time_sensorName.csv. e.g. 1705_MAIN_FILTER_OIL_TEMP.csv indicates dataset for Main Filter Oil Temperature sensor on May, 2017. The time interval of the raw dataset is different, which means need to be processed.
 The preprocessed (sampled) dataset is located under folder ["sampled"](https://github.com/limingwu8/Predictive-Maintenance/tree/master/dataset/csv/sampled). They are sampled into different time intervals.
 
+## Models
+A long short-term memory network (LSTM) was implemented for data prediction. The schematic diagram of a LSTM cell, the building block of LSTM network, is shown in the following figures.
+![image1](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/LSTM-cell.png)
+
+![image2](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/LSTM-network.png)
+
 ## Scripts
 * utils/: for data reading, sampling and write into CSV
 * Sensor.py: predicting the sensor value in the future
@@ -36,9 +42,9 @@ pickle
 
 ### Prediction
 This is the single step prediction result for one day sampled oil return temperature sensor.
-![image1](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/OIL_RETURN_TEMPERATURE-sample_1_day.png)
+![image3](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/OIL_RETURN_TEMPERATURE-sample_1_day.png)
 This is the RMSE comparison of multi-step prediction for different time interval sampled oil return temperature sensor.
-![image2](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/RMSE.png)
+![image4](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/RMSE.png)
 ### Health Index
 This is the predicted health index of each sensor and the whole system on November.
-![image3](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/health_index_combined.png)
+![image5](https://github.com/limingwu8/Predictive-Maintenance/blob/master/images/health_index_combined.png)
